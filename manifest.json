@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "ani_gamer_audio_plugin",
+    "version": "1.0",
+  
+    "description": "讓動畫瘋可以調整Gain.",
+  
+    "icons": {
+      "48": "icon.jpg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://ani.gamer.com.tw/*"],
+        "js": ["ani_gamer_audio_plugin.js"]
+      }
+    ]
+  
+  }
