@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "ani_gamer_audio_plugin",
+    "version": "2.0",
+    "author": "PUPU",
+  
+    "description": "讓動畫瘋可以調整音效增益(Gain).",
+  
+    "icons": {
+      "512": "icon.jpg"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://ani.gamer.com.tw/*"],
+        "js": ["ani_gamer_audio_plugin.js"]
+      }
+    ]
+}
